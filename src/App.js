@@ -6,7 +6,7 @@ import SocialMedia from './components/Page/SocialMedia';
 import Achievement from './components/Page/Achievement';
 function App() {
   return (
-    <Router>
+    <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
      <Fragment>
        <Navbar />
        <Switch>
